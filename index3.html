@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Checkout</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<center>
+		<h1>Checkout</h1>
+		<br>
+		<br>
+		<h3 id="price"></h3>
+		<br>
+		<br>
+		<button class="btn btn-success" onclick="viewPrice()">View Price</button>
+		<br>
+		<br>
+		<h2>Credit Card Details: </h2>
+		<br>
+        <br>
+		<h3>Credit Card Number: </h3><input id="ccn" type="text">
+		<br>
+        <br>
+        <h3>Credit Card Expiration Date: </h3><input id="cced" type="text">
+        <br>
+        <br>
+		<h3>Credit Card Security Code: </h3><input id="ccsc" type="text">
+		<br>
+        <br>
+		<h2>Credit Card Billing Adress: </h2>
+		<br>
+        <br>
+		<h3>First Name: </h3><input id="fn" type="text">
+		<br>
+        <br>
+		<h3>Last Name: </h3><input id="ln" type="text">
+		<br>
+        <br>
+		<h3>Street Adress: </h3><input id="sa" type="text">
+		<br>
+        <br>
+		<h3>City: </h3><input id="c" type="text">
+		<br>
+        <br>
+		<h3>Region: </h3><input id="r" type="text">
+		<br>
+        <br>
+		<h3>Postal Code: </h3><input id="pc" type="text">
+		<br>
+        <br>
+		<h3>Phone Number: </h3><input id="pn" type="text">
+		<br>
+        <br>
+		<button class="btn btn-primary" onclick="order()">Order</button>
+		</center>
+	</div>
+	
+<script src="script.js"></script>
+</body>
+</html>
